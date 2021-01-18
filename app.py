@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-import sagemaker.xgboost
 import pickle
 import numpy as np
 import pandas as pd
