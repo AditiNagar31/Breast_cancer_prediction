@@ -1,0 +1,42 @@
+<html>
+<style>
+    body {background-image: url('');
+    background-size:cover;
+
+    .button_css{
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration:none;
+    background: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    }
+
+</style>
+
+    <center>
+
+        <h1>    RESULTS     </h1>
+
+        {%if data==0%}
+        <h2 style="color:DodgerBlue;"> :) PATIENT DOESN'T HAVE CANCER (Benign: 0)</h2>
+        <div id="page"></div>
+        <img src='static/happy.jpg'>
+
+
+
+        {%else%}
+        <h2 style="color:Tomato;"> SORRY, PATIENT HAS CANCER (Malignant: 1)</h2>
+        <img src='static/staystrong.png'>
+
+
+        {%endif%}
+
+    </center>
+
+<body text="black">
+</body>
+
+
+
+</html>
